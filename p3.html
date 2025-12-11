@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CryptoBoard — Trading Dashboard</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="p3.css">
+</head>
+<body>
+
+<header class="cb-top">
+  <div class="cb-brand">CryptoBoard</div>
+
+  <div class="cb-actions">
+    <div class="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input placeholder="Search coin...">
+    </div>
+    <button class="btn small">Connect Wallet</button>
+  </div>
+</header>
+
+<main class="cb-main">
+
+  <!-- HERO SECTION -->
+  <section class="cb-hero">
+    <div class="cb-hero-left">
+      <h1>LIVE Crypto Markets</h1>
+      <p>See real-time pricing & market data — demo UI for display only</p>
+
+      <div class="metrics">
+        <div class="metric">
+          <div class="k">₹3,24,000</div>
+          <div class="label">Portfolio Value</div>
+        </div>
+
+        <div class="metric">
+          <div class="k up">+4.8%</div>
+          <div class="label">24h Change</div>
+        </div>
+
+        <div class="metric">
+          <div class="k">₹1,24,000</div>
+          <div class="label">24h Volume</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cb-hero-right">
+      <img src="assets/crypto-hero.jpg" alt="Crypto">
+    </div>
+  </section>
+
+  <!-- PRICE CARDS -->
+  <section class="price-cards">
+    
+    <article class="card coin">
+      <div class="coin-head">
+        <img src="assets/btc.jpg" alt="BTC">
+        <div>
+          <h3>Bitcoin (BTC)</h3>
+          <small>₹68,430</small>
+        </div>
+      </div>
+      <div class="spark spark-1"></div>
+      <div class="percent up">+3.5%</div>
+    </article>
+
+    <article class="card coin">
+      <div class="coin-head">
+        <img src="assets/eth.jpg" alt="ETH">
+        <div>
+          <h3>Ethereum (ETH)</h3>
+          <small>₹3,245</small>
+        </div>
+      </div>
+      <div class="spark spark-2"></div>
+      <div class="percent down">-1.2%</div>
+    </article>
+
+    <article class="card coin">
+      <div class="coin-head">
+        <img src="assets/sol.jpg" alt="SOL">
+        <div>
+          <h3>Solana (SOL)</h3>
+          <small>₹148</small>
+        </div>
+      </div>
+      <div class="spark spark-3"></div>
+      <div class="percent up">+6.1%</div>
+    </article>
+
+    <article class="card coin">
+      <div class="coin-head">
+        <img src="assets/ada.jpg" alt="ADA">
+        <div>
+          <h3>Cardano (ADA)</h3>
+          <small>₹45</small>
+        </div>
+      </div>
+      <div class="spark spark-4"></div>
+      <div class="percent up">+2.3%</div>
+    </article>
+
+  </section>
+
+  <!-- MARKET DEPTH -->
+  <section class="market-depth">
+    <h2>Market Depth</h2>
+    <div class="bars">
+      <div class="bar buy" style="--w:86%">BUY 86%</div>
+      <div class="bar sell" style="--w:52%">SELL 52%</div>
+      <div class="bar buy" style="--w:73%">BUY 73%</div>
+    </div>
+  </section>
+
+  <!-- TRANSACTIONS -->
+  <section class="transactions">
+    <h2>Latest Transactions</h2>
+    <ul>
+      <li><span class="tx-coin">BTC</span> Buy • ₹1,368 <span class="time">2m ago</span></li>
+      <li><span class="tx-coin">ETH</span> Sell • ₹1,298 <span class="time">6m ago</span></li>
+      <li><span class="tx-coin">SOL</span> Buy • ₹1,480 <span class="time">9m ago</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="cb-foot">© 2025 CryptoBoard — UI Demo</footer>
+
+</body>
+</html>
